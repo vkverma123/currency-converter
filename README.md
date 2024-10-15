@@ -126,7 +126,8 @@ http://localhost:10000/v1/api/convert-currency
 
 - if `original_amount` is less than 0
 
-<img width="867" alt="Screenshot 2567-10-15 at 18 23 25" src="https://github.com/user-attachments/assets/eb6a94b1-44d8-4abd-b28b-897d7e187f72">
+<img width="829" alt="Screenshot 2567-10-16 at 00 13 04" src="https://github.com/user-attachments/assets/7c273987-0cd1-47fb-8234-28c0d3920cf9">
+
 
 - if `from_currency` is not in valid format
 
