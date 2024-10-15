@@ -104,22 +104,25 @@ http://localhost:10000/v1/api/convert-currency
 
 ### Success: 200 OK
 
-<img width="839" alt="Screenshot 2567-10-15 at 18 20 50" src="https://github.com/user-attachments/assets/55ec8213-10c8-425e-8524-dc231e329c1c">
+![image](https://github.com/user-attachments/assets/68b329ea-92c1-457f-ba9b-e6d873b6d510)
+
 
 
 ### Bad Request: 400 and returns validation error messages accordingly
 
 - if `from_currency`, `to_currency` and `original_amount` are null
 
-<img width="851" alt="Screenshot 2567-10-15 at 18 21 34" src="https://github.com/user-attachments/assets/b923a570-f0aa-4dc0-97b1-ecde19e3b63f">
+![image](https://github.com/user-attachments/assets/1601d8ff-9f5b-459d-a4d2-bba075fe89fb)
+
 
 - if `original amount` is null
 
-<img width="850" alt="Screenshot 2567-10-15 at 18 22 27" src="https://github.com/user-attachments/assets/5803bd52-a18b-4970-b2ac-40ebeb96cf8b">
+![image](https://github.com/user-attachments/assets/c85a6a32-f3d2-483c-8402-bdd11ce30364)
+
 
 - if `from_currency`, `to_currency` are null and `original_amount` is 0
 
-<img width="859" alt="Screenshot 2567-10-15 at 18 23 02" src="https://github.com/user-attachments/assets/4e0b5647-f9fc-4670-ac2f-10abbf6fa51c">
+![image](https://github.com/user-attachments/assets/67a6e64c-f6e1-4b6e-bffc-58c768007dcc)
 
 - if `original_amount` is less than 0
 
@@ -127,48 +130,52 @@ http://localhost:10000/v1/api/convert-currency
 
 - if `from_currency` is not in valid format
 
-<img width="858" alt="Screenshot 2567-10-15 at 22 24 23" src="https://github.com/user-attachments/assets/b5cc8cca-541e-44b1-818e-d1813c1f0177">
+![image](https://github.com/user-attachments/assets/6c7379e2-ae80-4089-965f-c07e15c54a0a)
 
 - if `from_currency` and `to_currency` are not in valid format
 
-<img width="876" alt="Screenshot 2567-10-15 at 22 26 03" src="https://github.com/user-attachments/assets/9b42a03c-8c40-4659-a63b-45dc5ab5e301">
+![image](https://github.com/user-attachments/assets/c0944c36-c668-4f30-83ea-d44bbc930055)
+
 
 - if `from_currency` and `to_currency` are same
 
-<img width="863" alt="Screenshot 2567-10-15 at 18 24 30" src="https://github.com/user-attachments/assets/0cf02f67-d2f5-4e18-ba3f-95a67c864bde">
+![image](https://github.com/user-attachments/assets/63f179de-d87e-41fa-9bff-174d7b0a0c90)
+
 
 - if `to_currency` is empty
 
-<img width="854" alt="Screenshot 2567-10-15 at 18 25 45" src="https://github.com/user-attachments/assets/b252ab96-46bd-4cbf-90cb-758ecf6c0c60">
+![image](https://github.com/user-attachments/assets/a0b1c054-dc8a-48dd-9309-60cdc14f616d)
+
 
 - if `from_currency` is null and `to_currency` is empty
 
-<img width="859" alt="Screenshot 2567-10-15 at 18 25 58" src="https://github.com/user-attachments/assets/381a6200-0c44-4578-8190-598c8e759839">
+![image](https://github.com/user-attachments/assets/c259aab4-2ec8-412b-9e24-d7abbc51fe45)
+
 
 - if `to_currency` is more than 3 characters (invalid format)
 
-<img width="893" alt="Screenshot 2567-10-15 at 22 29 01" src="https://github.com/user-attachments/assets/79fecedf-5841-4b70-b909-e1be90966cfa">
+![image](https://github.com/user-attachments/assets/a53373c2-b8dc-4194-bc9a-341b73fa97ea)
 
 
 - if `to_currency` is small case 3 characters (invalid format)
 
-<img width="878" alt="Screenshot 2567-10-15 at 22 30 16" src="https://github.com/user-attachments/assets/5ff733cb-122e-430c-b1ce-bca320d418ef">
+![image](https://github.com/user-attachments/assets/e93153e9-bd4d-4e7b-8948-c4cd0d410906)
 
 - if `original_amount` is not decimal
 
-<img width="871" alt="Screenshot 2567-10-15 at 23 29 36" src="https://github.com/user-attachments/assets/2fe04e37-c5db-4b4d-8425-27be4fa24867">
+![image](https://github.com/user-attachments/assets/4741b9ef-d457-4100-862a-643536f0bd29)
 
 
 ### Not Found : 404 and returns validation error messages accordingly
 
 - if `to_currency` is unsupported currency
 
-<img width="874" alt="Screenshot 2567-10-15 at 18 25 17" src="https://github.com/user-attachments/assets/bf350592-0212-4aa6-af93-01d3beb7e377">
+![image](https://github.com/user-attachments/assets/36d08418-63a3-4964-b65b-32ff0af0e40f)
+
 
 
 # Unit Tests (Passed)
 
-<img width="383" alt="Screenshot 2567-10-15 at 23 47 32" src="https://github.com/user-attachments/assets/1f64fd8c-2c3d-4187-92d1-366d5ad9128b">
-
+![image](https://github.com/user-attachments/assets/19623697-98c9-46f1-bf3d-43996f9367f4)
 
 
