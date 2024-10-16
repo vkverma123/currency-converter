@@ -177,6 +177,7 @@ http://localhost:10000/v1/api/convert-currency
 
 # Unit Tests (Passed)
 
-![image](https://github.com/user-attachments/assets/19623697-98c9-46f1-bf3d-43996f9367f4)
+<img width="336" alt="Screenshot 2567-10-16 at 07 54 35" src="https://github.com/user-attachments/assets/1fa14462-4823-45d7-a6c0-5f47a02e3794">
+
 
 
